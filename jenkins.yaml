@@ -51,7 +51,7 @@ unclassified:
           scm:
             github:
               credentialsId: "cbdays-github-username-pat"
-              repoOwner: "REPLACE_GITHUB_ORG"
+              repoOwner: "loopx2"
               repository: "pipeline-library"
   hibernationConfiguration:
     activities:
@@ -70,10 +70,10 @@ credentials:
               scope: GLOBAL
               id: cbdays-github-token-secret
               description: "GitHub PAT from JCasC - secret text"
-              secret: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              secret: "{AQAAABAAAAAw0spdBaf5ZjRhHg17y30qKS/B5kKRki2ftCysRfcryXJ3dJH06Fbmjea16/mAMsO5yj0iU9NRUYfnKM/PU9ep3w==}"
           - usernamePassword:
               scope: GLOBAL
               id: cbdays-github-username-pat
               description: "GitHub PAT from JCasC - username/password"
-              username: "REPLACE_WITH_YOUR_GITHUB_USERNAME"
-              password: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              username: "loopy2020"
+              password: "{AQAAABAAAAAw0spdBaf5ZjRhHg17y30qKS/B5kKRki2ftCysRfcryXJ3dJH06Fbmjea16/mAMsO5yj0iU9NRUYfnKM/PU9ep3w==}"
